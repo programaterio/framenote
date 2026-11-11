@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FrameNote · Backups & import</title>
+  <link rel="stylesheet" href="options.css">
+  <script src="media-info.js" defer></script>
+  <script src="backup-data.js" defer></script>
+  <script src="options.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><img src="icons/icon48.png" width="48" height="48" alt=""><div><h1>FrameNote</h1><p>Backups, import & help · <span id="version"></span></p></div></header>
+    <section class="welcome" aria-labelledby="welcome-heading">
+      <p class="eyebrow">YOUR MOMENTS, REMEMBERED</p>
+      <h2 id="welcome-heading">A notebook beside your player.</h2>
+      <p>Open a video or audio page, capture a moment, and add a note.</p>
+      <div class="quick-keys"><span><kbd>Alt / Option</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd> Show notes</span><span><kbd>⌘ / Ctrl</kbd> + <kbd>Enter</kbd> Save</span><span><kbd>Esc</kbd> Close</span></div>
+      <p class="hint">Your notes stay in this browser. Backups keep a separate copy.</p>
+    </section>
+    <p id="message" role="status" aria-live="polite"></p>
+    <section aria-labelledby="backup-heading">
+      <h2 id="backup-heading">Keep a copy on your computer</h2>
+      <p>JSON backups survive uninstalling the extension.</p>
+      <div id="settings">
+        <label class="checkbox"><input id="enabled" type="checkbox" disabled> Automatic backups</label>
+        <p id="settings-hint" class="hint" aria-live="polite">Changes save automatically. Off by default.</p>
+        <p class="hint">Updates your current JSON after changes and keeps a monthly snapshot.</p>
+        <p class="field-label">Automatic destination</p>
+        <p>Browser downloads / FrameNote</p>
+        <div class="actions"><button id="backup-now" type="button" class="secondary">Back up now</button><button id="show-download" type="button" class="secondary" disabled>Show in folder</button></div>
+      </div>
+      <p id="backup-status" class="status" role="status" aria-live="polite">Checking backup status…</p>
+      <details id="backup-details" hidden><summary>File locations</summary><p id="backup-path" class="file-path"></p></details>
+      <h3 class="manual-heading">Manual backup</h3>
+      <p>Save your full library to a folder and filename you choose.</p>
+      <button id="export-library" type="button">Save backup as…</button>
+      <p id="manual-status" class="status" role="status" aria-live="polite"></p>
+      <details id="manual-details" hidden><summary>File location</summary><p id="manual-path" class="file-path"></p></details>
+    </section>
+    <section aria-labelledby="import-heading">
+      <h2 id="import-heading">Restore or combine annotations</h2>
+      <p>Import a FrameNote JSON backup. Existing notes are kept.</p>
+      <label for="import-file">JSON file · up to 20 MB</label>
+      <input id="import-file" type="file" accept=".json,application/json">
+      <p class="hint">Duplicates are skipped. Conflicts keep your current note.</p>
+      <p id="import-preview" class="status" role="status">Choose a file to preview.</p>
+      <button id="import-button" disabled>Import annotations</button>
+    </section>
+    <section aria-labelledby="help-heading">
+      <h2 id="help-heading">A little help</h2>
+      <details><summary>How are backups kept?</summary><p>Current backups start as <code>framenote-current.json</code>; an existing file gets a numbered name on first use. Monthly snapshots use <code>framenote-YYYY-MM.json</code> and are never overwritten.</p><p>FrameNote tracks downloads, not folder contents. Lost tracking/history may create an extra monthly file. Sleep or shutdown delays backups.</p></details>
+      <details><summary>Can I change the backup location?</summary><p>Automatic backups follow browser Settings → Downloads → Location. That affects other downloads too. Manual Save As lets you choose any permitted folder for one backup.</p></details>
+      <details><summary>Updating or reinstalling</summary><p>For updates, keep the same installation folder, replace its files, click Reload on the extensions page, and refresh media tabs.</p><p>Uninstalling removes browser notes and settings; backup files remain. Import a JSON backup to restore your notes.</p></details>
+      <details><summary>What permissions are needed?</summary><p>Backups use normal browser downloads. No Brave API flag, companion app or ongoing folder access is needed. Old folder grants are no longer used and can be revoked in browser settings.</p></details>
+      <details><summary>No player or subtitles?</summary><p>Refresh the page, start playback, and allow FrameNote on the site. Enable captions before capturing. Some closed or sandboxed players cannot be accessed; audio is not transcribed.</p></details>
+      <p class="hint">No accounts, analytics or uploads. <a href="privacy.html" target="_blank" rel="noopener">Privacy policy</a>.</p>
+    </section>
+    <footer>Stored locally. Keep backup files somewhere you trust.</footer>
+  </main>
+</body>
+</html>

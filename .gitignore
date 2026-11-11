@@ -1,0 +1,12 @@
+# Local OS and interpreter files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Generated packages and browser-test previews
+*.zip
+release/*-preview.png
+
+# Licensing preparation files and the unused legacy adapter
+release/licensing/
+backup-folder.js
