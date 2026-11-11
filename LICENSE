@@ -1,21 +1,79 @@
-MIT License
+FrameNote Personal Noncommercial License
+Version 1.0 — November 11, 2026
 
 Copyright (c) 2026 programaterio
+All rights reserved except as expressly granted below.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Scope
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This license applies to the FrameNote source code, extension, assets, and
+accompanying documentation supplied under this license (the "Software").
+The copyright holder is "Licensor". The recipient is "you".
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+2. Personal, noncommercial permission
+
+Subject to these terms, Licensor grants you a nonexclusive, nontransferable,
+royalty-free license to download, install, run, and make private copies of the
+Software solely for your own personal, noncommercial use. You may modify the
+Software and run those modifications privately on devices under your control.
+You may keep private backup copies for those permitted uses.
+
+3. No commercial use
+
+You may not use the Software or modifications for commercial purposes,
+including selling or licensing them, providing them as a paid or monetized
+product or service, or using them in a business, professional practice, or
+paid employment. Use primarily intended for commercial advantage or monetary
+compensation is not permitted. Separate written permission from Licensor is
+required for any such use.
+
+4. No redistribution
+
+You may not distribute, publish, sublicense, sell, rent, lend, share, or
+otherwise make the Software or modifications available to other people.
+This restriction applies to source and compiled forms, modified and
+unmodified copies, substantial portions, public mirrors, repackaged
+extensions, and copies incorporated into another product or service.
+Private modifications may not be redistributed, even free of charge.
+You may share a link to Licensor's official repository or download page.
+
+5. Limited GitHub platform exception
+
+While Licensor makes the Software available in a public GitHub repository,
+this license does not restrict the viewing and forking rights necessarily
+granted to GitHub and its users by the applicable GitHub Terms of Service.
+This exception is limited to those platform-required rights. It is not a
+general license to redistribute the Software or modifications, use them
+commercially, or sublicense them outside those required rights.
+
+6. Notices, other materials, and prior permissions
+
+Retain this license and applicable copyright notices in your permitted
+copies and private modifications. No trademark rights are granted.
+Third-party materials, if any, remain subject to their own licenses and
+notices; this license does not replace those terms or confer rights that
+Licensor does not hold.
+
+Your own annotations, exported notes, and personal data are not the Software
+and are not restricted by this license.
+
+These terms apply to copies made available under this license. They do not
+revoke permissions already granted for copies previously released under the
+MIT License or another license. Nothing here restricts rights that cannot
+lawfully be excluded under applicable law.
+
+7. Termination and additional permissions
+
+The permissions granted by this license terminate if you breach its terms.
+No permissions are granted beyond those expressly stated. Licensor may grant
+additional permissions separately in writing. These restrictions apply to
+recipients and do not restrict Licensor's own rights in the Software.
+
+8. No warranty; limitation of liability
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+IN NO EVENT SHALL LICENSOR OR OTHER COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR ITS USE,
+WHETHER IN CONTRACT, TORT, OR OTHERWISE.
